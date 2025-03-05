@@ -1,0 +1,58 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 50%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+        .social-icons a {
+            margin: 10px;
+            display: inline-block;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        h1 {
+            font-size: 22px;
+        }
+        h2 {
+            font-size: 16px;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Fikri Surya Prayoga</h1>
+        <h2>102022300022 / Fakultas Rekayasa Industri / S1 Sistem Informasi</h2>
+        <img src="Fotoku.jpg" alt="Foto Anda">
+        <div class="social-icons">
+            <a href="https://github.com/fikrisuryaprr" target="_blank">Github</a>
+            <a href="https://www.instagram.com/fikrisuryaprr__" target="_blank">Instagram</a>
+        </div>
+        <p id="datetime"></p>
+    </div>
+
+    <script>
+        document.getElementById("datetime").innerHTML = new Date();
+    </script>
+</body>
+</html>
